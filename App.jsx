@@ -1,44 +1,4 @@
 import React from 'react';
-// import Members from './Members/Members.jsx';
-// import {createBrowserHistory} from 'history';
-// import {BrowserRouter,Route} from 'react-router-dom';
-// import Root from './Members/Root.jsx';
-//  // import ShowMembers from './Members/ShowMembers.jsx';
-//  import Addnewmember from './Members/Addnewmeber.jsx';
-//import AddMembers from './Members/AddMembers.jsx'
-// import {connect} from 'react-redux';
-// import Addtodo from './components/Todolist/Addtodo.jsx';
-// import Todolist from './components/Todolist/Todolist.jsx';
-// import {Todoactions} from './actions/Todoactions/Todoactions.js';
-
-
-// class App extends React.Component {
-//    render() {
-//     const { dispatch, visibleTodos } = this.props
-
-//       return (
-//          <div>
-//            <Addtodo addTodo={(text)=>dispatch(Todoactions(text))}/>
-//            <Todolist todos = {visibleTodos}/>
-//          </div>
-//       );
-//    }
-// }
-
-// function select(state) {
-//   console.log(state.todos);
-//   return {
-   
-//      visibleTodos: state.todos
-//   }
-// }
-
-// export default connect(select)(App)
-
-
-
-
-
 class App extends React.Component {
     constructor(props)
     {
